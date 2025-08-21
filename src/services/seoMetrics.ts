@@ -3,6 +3,14 @@ import type { SEOMetrics, DraftArticle } from '../types';
 /**
  * SEO評価計算サービス
  * 記事のタイトル、メタディスクリプション、コンテンツを分析してSEOスコアを算出
+ * 
+ * サイト分析機能：
+ * - タイトルの最適化分析
+ * - メタディスクリプションの品質評価
+ * - コンテンツ構造の分析
+ * - キーワード最適化の評価
+ * - 総合的なSEOスコアの算出
+ * - 改善推奨事項の生成
  */
 
 interface SEOAnalysisInput {
